@@ -1,9 +1,6 @@
 # classification-model
 EECS 731 Data Science | Project 2 - To be, or not to be
 
-data-explorer
-==============================
-
 Navigate to **notebooks > JimmyWrangler.ipynb to view the Jupyter Notebook**
 
 # Introduction to Data Science, Project 2: To be, or not to be
