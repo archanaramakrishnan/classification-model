@@ -1,11 +1,12 @@
-# classification-model
-EECS 731 Data Science | Project 2 - To be, or not to be
-
-Navigate to **notebooks > JimmyWrangler.ipynb to view the Jupyter Notebook**
-
 # Introduction to Data Science, Project 2: To be, or not to be
 ------------
 
+## My Analysis
+### Find my [jupyter notebook here](https://github.com/archanaramakrishnan/classification-model/blob/master/notebooks/ShakespeareClassification.ipynb).
+
+I used data preparation and extraction to clean up the data and pick the lines that are active dialogs rather than passive actions. I used the naive bayes, decision tree and random forest classifiers and random forest gave me the best accuracy. I created a word coud visualization to depict the frequency of a player's lines in the dataset.
+
+## Project Prompt
 Classy Shakespeare plays and players
 
 - Set up a data science project structure in a new git repository in your GitHub account
@@ -16,20 +17,18 @@ Classy Shakespeare plays and players
 - Document your process and results
 - Commit your notebook, source code, visualizations and other supporting files to the git repository in GitHub
 
-# Project Organization
+## Project Organization
 ------------
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   └── raw            <- The original, immutable data dump.
+    │   └── raw            <- The original, immutable data 
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks. 
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
